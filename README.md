@@ -9,7 +9,7 @@ Various tools for Arma content creation.
 ### Setup
 
 ```
-sudo python3 setup.py install
+$ python3 setup.py install
 ```
 
 **Requirements**:
