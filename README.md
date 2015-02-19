@@ -35,5 +35,3 @@ Commands:
 
 Use 'armautils [command] --help' to display help for an individual command.
 ```
-
-Type `armautils --help` to get a list of all commands and `armautils [command] --help` to get help for that command.
