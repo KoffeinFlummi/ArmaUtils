@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import sys
+import armautils_cli
+
+armautils_cli.parse_args(sys.argv[1:])
