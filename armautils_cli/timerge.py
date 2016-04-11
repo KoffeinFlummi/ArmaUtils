@@ -10,9 +10,9 @@ def timerge(pargs, oargs):
     path_base, path_moving, path_meta, path_target = pargs
 
     try:
-        base = Image.open(path_base)
-        moving = Image.open(path_moving)
-        meta = Image.open(path_meta)
+        base = Image.open(path_base).convert("RGBA")
+        moving = Image.open(path_moving).convert("RGBA")
+        meta = Image.open(path_meta).convert("RGBA")
     except:
         print("Failed to read images. Please check your paths.")
         return 1

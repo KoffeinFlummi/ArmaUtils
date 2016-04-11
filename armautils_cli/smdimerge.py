@@ -10,8 +10,8 @@ def smdimerge(pargs, oargs):
     path_spec, path_gloss, path_target = pargs
 
     try:
-        spec = Image.open(path_spec)
-        gloss = Image.open(path_gloss)
+        spec = Image.open(path_spec).convert("RGBA")
+        gloss = Image.open(path_gloss).convert("RGBA")
     except:
         print("Failed to read images. Please check your paths.")
         return 1
